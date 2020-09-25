@@ -22,7 +22,6 @@ Bulogin.grid(row=3,column=1)
 
 def BuClick():
     print("User name{}, Password: {}" .format (etUserName.get(),etPassword.get()))
-    messagebox.showinfo(title="Login info",messagebox="User name{}, Password: {}" .format (etUserName.get(),(etPassword.get())))
 
 Bulogin.config(command=BuClick())
 
